@@ -3,6 +3,7 @@ body{
   padding:0;
   font-family: 'Open Sans', sans-serif;
   color:rgb(54, 51, 51);
+  overflow-x: hidden;
   
 }
 
@@ -14,9 +15,12 @@ body{
   color:white;
   background:rgb(227, 154, 20);
   font-size: smaller;
+  
 }
 
 /* heads */
+
+
 
 .heads{
   display:flex;
@@ -47,10 +51,12 @@ body{
   background-color: rgb(49, 49, 225);
   padding:10px;
   
+ 
+  
 }
 .headerbanner button{
   display:none;
-  align-items:;
+  margin-left: 50%;
   background-color:rgb(49, 49, 225);
   border: none;
   font-size: 50px;
@@ -73,6 +79,11 @@ gap:60px;
 .conference{
   display:flex;
   padding:20px;
+
+
+  
+
+
 }
 
 .conference-details{
@@ -608,9 +619,9 @@ top:10px;
 }
 
 
-@media (max-width:768px){
+@media  (max-width:768px){
   body{
-    width:100%;
+    width:100vw;
 
   }
   .mark{
@@ -622,6 +633,9 @@ top:10px;
   }
   .headerbanner{
     width:100%
+  }
+  .video{
+    width:50%;
   }
   .headerbanner button{
     display: block;
@@ -689,6 +703,9 @@ top:10px;
  .session-head{
   font-size: 35px;
  }
+ .emp1{
+  height:179px
+ }
  .sessions{
   display: block;
   width:300%;
@@ -698,7 +715,7 @@ top:10px;
   display: block;
  }
  .sub-container{
-  width:50%;
+  width:80%;
   margin: auto;
   margin-bottom: 20px;
  }
@@ -747,5 +764,9 @@ top:10px;
     width:80%;
     margin-left: 60px;
   }
+  
+  
+
+ 
 
 }

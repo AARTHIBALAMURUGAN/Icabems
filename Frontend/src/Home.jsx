@@ -33,7 +33,8 @@ import { FaCalendarAlt, FaMapMarkerAlt,  FaHome,
 function Home(){
     return(
     <>   
-    <header >    
+    <header >
+            
     <Marquee speed={60} className="mark"><b>HYBRID EVENT:</b> <>You can participate in <b>person</b> at <b>Bangkok,Thailand</b> or <b>virtually</b> from your home or office (Scrolling) </></Marquee>
 <Navbar/>
 </header>
@@ -53,7 +54,7 @@ Management and Social Science &amp; Humanities (ICAEBMS)”</h1>
 
 <p><b>ISBN:</b>978-95-813001-3-6</p>
     </div>
-   <div>
+   <div className="video">
 <video src="https://icaebms.com/videos/icaebms-hero-video.webm" type="video/mp4" autoPlay Loop></video>
    </div>
 </div >
