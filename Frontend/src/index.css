@@ -56,7 +56,7 @@ body{
 }
 .headerbanner button{
   display:none;
-  margin-left: 50%;
+  margin-left: 45%;
   background-color:rgb(49, 49, 225);
   border: none;
   font-size: 50px;
@@ -767,9 +767,7 @@ top:10px;
   
   
 @media (max-width:480px){
-  * {
-  border: 1px solid red;
-}
+ 
   body{
     overflow-x: hidden;
     width:100%
@@ -790,6 +788,7 @@ top:10px;
   video{
     width: 100%;
     margin: 0;
+    height:100%
   }
   .welcome-para{
     padding:0px;
@@ -820,14 +819,14 @@ top:10px;
     margin:10px  0px;
   }
   .emp{
-    height:230px;
+    height:250px;
   }
   .emp1{
     height:270px;
   }
   .key-right{
     padding: 0px;
-    height:230px;
+    height:250px;
     
   }
   .key-left{
@@ -859,10 +858,17 @@ top:10px;
   }
   .foot-2{
     width:100%;
+    margin-left: 20%;
+
   }
   .foot-4{
     width:100%
 }
+.dateloc{
+  display: block;
+}
+
  
 
+}
 }
