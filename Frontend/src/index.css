@@ -819,10 +819,10 @@ top:10px;
     margin:10px  0px;
   }
   .emp{
-    height:250px;
+    height:251px;
   }
   .emp1{
-    height:270px;
+    height:271px;
   }
   .key-right{
     padding: 0px;
@@ -841,13 +841,16 @@ top:10px;
   }
   .session{
     width:100%;
-    margin: 0;
+    margin:5px;
     
   }
   .sessions{
     width:100%;
     margin:0
 
+  }
+  .sub-detail{
+    width:95%;
   }
   
   .proceed{
