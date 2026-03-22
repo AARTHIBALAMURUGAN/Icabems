@@ -774,7 +774,7 @@ top:10px;
   }
   
   .headerbanner{
-    width:98%;
+    width:100%;
   }
   .headerbanner button{
     margin-left: 20%;
@@ -849,9 +849,7 @@ top:10px;
     margin:0
 
   }
-  .sub-detail{
-    width:95%;
-  }
+  
   
   .proceed{
     width:82%
