@@ -621,7 +621,7 @@ top:10px;
 
 @media  (max-width:768px){
   body{
-    width:100vw;
+    width:100%;
 
   }
   .mark{
@@ -766,7 +766,103 @@ top:10px;
   }
   
   
+@media (max-width:480px){
+  * {
+  border: 1px solid red;
+}
+  body{
+    overflow-x: hidden;
+    width:100%
+  }
+  
+  .headerbanner{
+    width:98%;
+  }
+  .headerbanner button{
+    margin-left: 20%;
+  }
+  .conference{
+    width:92%;
+  }
+  .video{
+    width:100%
+  }
+  video{
+    width: 100%;
+    margin: 0;
+  }
+  .welcome-para{
+    padding:0px;
+    
+  }
+  .welcome-side{
+    margin-top:100%;
+  }
+  .theme-div{
+    width:100%;
+  }
+  .theme-div1{
+    width: 100%;
+  }
+  .theme-content {
+    padding:5px;
+    
+  }
+  .theme-content p{
+    width:100%;
+    
+  }
+  .theme-div1 img{
+    margin-top: 20px;
 
+  }
+  .empty{
+    margin:10px  0px;
+  }
+  .emp{
+    height:230px;
+  }
+  .emp1{
+    height:270px;
+  }
+  .key-right{
+    padding: 0px;
+    height:230px;
+    
+  }
+  .key-left{
+    height:230px;
+  }
+  .key-right p{
+    width:100%;
+
+  }
+  .right{
+    padding:5px
+  }
+  .session{
+    width:100%;
+    margin: 0;
+    
+  }
+  .sessions{
+    width:100%;
+    margin:0
+
+  }
+  
+  .proceed{
+    width:82%
+  }
+  .proceed img{
+    width:25%;
+  }
+  .foot-2{
+    width:100%;
+  }
+  .foot-4{
+    width:100%
+}
  
 
 }

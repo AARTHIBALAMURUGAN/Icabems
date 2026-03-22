@@ -55,7 +55,7 @@ Management and Social Science &amp; Humanities (ICAEBMS)”</h1>
 <p><b>ISBN:</b>978-95-813001-3-6</p>
     </div>
    <div className="video">
-<video src="https://icaebms.com/videos/icaebms-hero-video.webm" type="video/mp4" autoPlay Loop></video>
+<video src="https://icaebms.com/videos/icaebms-hero-video.webm" type="video/mp4" autoPlay loop muted></video>
    </div>
 </div >
 <div className="logo">
